@@ -43,7 +43,7 @@ window.onload = function () {
 			yElem.innerHTML = y;
 			zElem.innerHTML = z;
 
-			var line = two.makeLine(centerX, centerY, centerX + x*4, 0 - centerY - y*4);
+			var line = two.makeLine(centerX, centerY, centerX + x*4, centerY y*4);
 			line.linewidth = 5;
 			line.stroke = "rgba(255, 0, 0, 0.5)";
 			two.update();
