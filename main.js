@@ -3,8 +3,8 @@ window.onload = function () {
 	var width = 300;
 	var height = 300;
 
-	var centerX = 300/2;
-	var centerY = 300/2;
+	var centerX = 150;
+	var centerY = 150;
 
 	var el = document.getElementById("vector"),
     two = new Two({ 
