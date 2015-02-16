@@ -17,7 +17,7 @@ window.onload = function () {
 			z = acc.z;
 		}
 
-		var updateElements() {
+		var updateElements = function() {
 			xElem.innerHTML = x;
 			yElem.innerHTML = y;
 			zElem.innerHTML = z;
