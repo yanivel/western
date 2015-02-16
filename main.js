@@ -3,7 +3,7 @@ var xElem = document.getElementById('xCoord'),
 	yElem = document.getElementById('yCoord'),
 	zElem = document.getElementById('zCoord');
 
- var = deviceMotionHandler = function(e) 
+var deviceMotionHandler = function(e) 
 {
 	var acc = e.acceleration;
 
