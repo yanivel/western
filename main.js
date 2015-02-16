@@ -8,12 +8,15 @@ window.onload = function () {
 
 	var el = document.getElementById("vector"),
     two = new Two({ 
-        width: width,
-        height: height
+        width: 300,
+        height: 300
     });
+    two.appendTo(el);
  
-	two.appendTo(el);
-
+	var rect = two.makeRectangle(0, 0, width, height);
+    rect.fill = '#81F7BE';
+    rect.stroke = 0;
+    two.update();
 
 
 	if (window.DeviceMotionEvent) {
