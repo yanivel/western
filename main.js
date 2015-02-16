@@ -36,6 +36,7 @@ window.onload = function () {
 			y = acc.y;
 			z = acc.z;
 		}
+		
 
 		var updateElements = function() {
 			xElem.innerHTML = x;
@@ -43,10 +44,10 @@ window.onload = function () {
 			zElem.innerHTML = z;
 
 			var line = two.makeLine(centerX, centerY, centerX + x*4, centerY + y*4);
-			line.linewidth = 10;
+			line.linewidth = 5;
 			line.stroke = "rgba(255, 0, 0, 0.5)";
-
 			two.update();
+			line.remove();
 		}
 
 		var successElt = document.getElementById('success');
