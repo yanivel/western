@@ -13,7 +13,7 @@ if (window.DeviceMotionEvent) {
 		zElem.innerHTML = acc.z;
 	}
 
-
+	window.getElementById("success").innerHTML = "DeviceMotionEvent is supported!";
 	window.addEventListener('devicemotion', deviceMotionHandler, false);
 } else {
 	window.getElementById("error").innerHTML = "DeviceMotionEvent not supported!";
