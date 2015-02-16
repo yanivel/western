@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Western</title>
-	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 	<script type="text/javascript" src="main.js"></script>
 </head>
 <style type="text/css">
@@ -16,11 +16,14 @@
 </style>
 <body>
 	<h1>Western!</h1>
+	<div class="left"><strong>X</strong></div>
+	<div class="left"><strong>Y</strong></div>
+	<div class="left"><strong>Z</strong></div>
 	<div id="xCoord" class="left">X</div>
 	<div id="yCoord" class="left">Y</div>
 	<div id="zCoord" class="left">Z</div>
-
-	<div id="error" class="alert alert-danger"></div>
-	<div id="success" class="alert alert-success"></div>
+	<div class="clearfix"></div>
+	<strong><div id="error" class="hidden"></div>
+	<div id="success" class="hidden"></div></strong>
 </body>
 </html>
