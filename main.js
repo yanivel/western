@@ -42,7 +42,7 @@ window.onload = function () {
 			yElem.innerHTML = y;
 			zElem.innerHTML = z;
 
-			var line = two.makeLine(centerX, centerY, centerX + x, centerY + y);
+			var line = two.makeLine(centerX, centerY, centerX + x*4, centerY + y*4);
 			line.linewidth = 10;
 			line.stroke = "rgba(255, 0, 0, 0.5)";
 
